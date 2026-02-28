@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çemenzar Leo Kulübü | Sosyal Sorumluluk</title>
+    <meta name="description"
+        content="Çemenzar Leo Kulübü olarak sosyal sorumluluk projeleri üretiyor, topluma değer katıyoruz. Bize katılın!">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#hero" class="logo">
+            <img src="logo.png" alt="Çemenzar Leo Logosu" class="nav-logo-img">
+            <span><span class="brand-cemenzar">Çemenzar</span> <span>Leo</span></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#hero">Ana Sayfa</a></li>
+            <li><a href="#neler-yaptik">Neler Yaptıklarımız</a></li>
+            <li><a href="#yaklasan-aktiviteler">Yaklaşan Aktiviteler</a></li>
+            <li><a href="#donem-gorevlileri">Dönem Görevlileri</a></li>
+        </ul>
+        <div class="hamburger">
+            <i data-lucide="menu"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <img src="logo.png" alt="Çemenzar Leo Hero Logo" class="hero-logo fade-up">
+            <h1 class="fade-up delay-1">Geleceği Birlikte <br><span class="text-gradient">İnşa Ediyoruz</span></h1>
+            <p class="fade-up delay-2">Çemenzar Leo Kulübü olarak, iyilik için bir araya geliyor, topluma değer katan
+                sürdürülebilir sosyal sorumluluk projeleri üretiyoruz.</p>
+            <div class="hero-buttons fade-up delay-3">
+                <a href="#neler-yaptik" class="btn btn-primary">Projelerimizi İncele</a>
+                <a href="https://www.instagram.com/cemenzarleo/" target="_blank" class="btn btn-outline"><i
+                        data-lucide="instagram"></i> Instagram'da Bizi Bul</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i data-lucide="mouse"></i>
+            <span>Kaydır</span>
+        </div>
+    </section>
+
+    <!-- Neler Yaptıklarımız -->
+    <section id="neler-yaptik" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title fade-up">Neler <span class="text-gradient">Yaptıklarımız?</span></h2>
+            <p class="section-subtitle fade-up">Bugüne kadar hayata geçirdiğimiz başlıca sosyal sorumluluk projelerimiz.
+            </p>
+
+            <div class="projects-grid">
+                <!-- Proje 1 -->
+                <div class="project-card reveal gallery-trigger" data-gallery="egitim" style="cursor: pointer;">
+                    <div class="card-image">
+                        <!-- INSTAGRAM'DAN ALINAN GÖRSEL 1 (AFİŞ) -->
+                        <img src="egitim_afis.jpg" alt="Eğitim Projesi">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="date">8 Şubat 2025</div>
+                        <h3>Çocuklarla Bir Gün</h3>
+                        <p>Küçük kalplere dokunmak, onların yüzünde bir tebessüm olmak için bir araya geldik.</p>
+                    </div>
+                </div>
+
+                <!-- Proje 2 -->
+                <div class="project-card reveal delay-1 gallery-trigger" data-gallery="leo-market"
+                    style="cursor: pointer;">
+                    <div class="card-image">
+                        <!-- INSTAGRAM'DAN ALINAN GÖRSEL (LEO MARKET YENİ KAPAK) -->
+                        <img src="leo_market_yeni_afis.jpg" alt="Leo Market Hizmeti">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="date">14-15 Şubat 2025</div>
+                        <h3>Leo Market</h3>
+                        <p>Ramazan ayında yüzlerce aileye dayanışma ve erzak kolileri ulaştırmak için çalışıyoruz.</p>
+                    </div>
+                </div>
+
+                <!-- Proje 3 -->
+                <div class="project-card reveal delay-2 gallery-trigger" data-gallery="dunya-lions"
+                    style="cursor: pointer;">
+                    <div class="card-image">
+                        <img src="gallery/dunya_lions_1.png" alt="Dünya Lions Hizmet Günü">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="date">12 Ekim 2025</div>
+                        <h3>Dünya Lions Hizmet Günü</h3>
+                        <p>Dünya Lions Hizmet Günü etkinliğimizi Ataşehir Amfili Parkta şenlik havasında kutladık 🫶🦁
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Proje 4 -->
+                <div class="project-card reveal gallery-trigger" data-gallery="karaoke" style="cursor: pointer;">
+                    <div class="card-image">
+                        <!-- INSTAGRAM'DAN ALINAN GÖRSEL (KARAOKE/HASTANE BAĞIŞI) -->
+                        <img src="karaoke_bagis.jpg" alt="Hastane Bağışı">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="date">4 Aralık 2025</div>
+                        <h3>Hasta Başı Monitörü Bağışı</h3>
+                        <p>4 Aralık’ta düzenlediğimiz Karaoke etkinliğimizden elde ettiğimiz gelirle çocukluk çağı
+                            kanseriyle mücadele eden kahramanlarımız için Kartal Dr. Lütfi Kırdar Hastanesine 2 adet
+                            hasta başı monitörü hediye ettik. Katılım sağlayarak destek olan herkese çok teşekkürler.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="instagram-notice fade-up">
+                <p><i data-lucide="info"></i> Not: Bu görselleri <b>@cemenzarleo</b> Instagram hesabınızdan aldığınız
+                    fotoğraflarla değiştirebilirsiniz.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yaklaşan Aktiviteler -->
+    <section id="yaklasan-aktiviteler" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Yaklaşan <span class="text-gradient">Aktiviteler</span></h2>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="date">Ramazan Ayı Boyunca</div>
+                        <h3>LEO MARKET</h3>
+                        <p>Ramazan ayı boyunca ihtiyaç sahiplerine ulaştırmak üzere gıda kolileri topluyoruz. Bu
+                            dayanışma ve paylaşma ayında siz de koli bağışlayarak destek olabilirsiniz.</p>
+                        <a href="https://www.instagram.com/cemenzarleo/" target="_blank" class="event-link">Detaylar <i
+                                data-lucide="arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="date">4 Mayıs 2026</div>
+                        <h3>Sokak Hayvanları İçin Mama Dağıtımı</h3>
+                        <p>Belirlenen besleme noktalarında sokaktaki can dostlarımız için düzenli mama ve su bırakma
+                            etkinliğimizin sıradaki buluşması.</p>
+                        <a href="https://www.instagram.com/cemenzarleo/" target="_blank" class="event-link">Detaylar <i
+                                data-lucide="arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dönem Görevlileri -->
+    <section id="donem-gorevlileri" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title fade-up">Dönem <span class="text-gradient">Görevlileri</span></h2>
+            <p class="section-subtitle fade-up">2025-2026 Çalışma Dönemi Liderlerimiz</p>
+
+            <div class="team-grid">
+                <!-- Geçmiş Dönem Başkanı -->
+                <div class="team-card reveal">
+                    <div class="member-image-wrapper">
+                        <!-- INSTAGRAM'DAN ALINACAK GÖRSEL -->
+                        <img src="gecmis_donem_baskani.jpg" alt="Geçmiş Dönem Başkanı Melis Suner">
+                    </div>
+                    <div class="member-info">
+                        <h3>Melis Suner</h3>
+                        <span class="role">Geçmiş Dönem Başkanı (2024-2025)</span>
+                    </div>
+                </div>
+
+                <!-- Çalışma Dönemi Başkanı -->
+                <div class="team-card reveal delay-1 principal">
+                    <div class="member-image-wrapper highlight">
+                        <!-- INSTAGRAM'DAN ALINACAK GÖRSEL -->
+                        <img src="baskan.jpg" alt="Çalışma Dönemi Başkanı Ege Baran Odabaşı">
+                    </div>
+                    <div class="member-info">
+                        <h3>Ege Baran Odabaşı</h3>
+                        <span class="role text-gradient font-bold">2025-2026 Çalışma Dönemi Başkanı</span>
+                    </div>
+                </div>
+
+                <!-- Başkan Yardımcısı -->
+                <div class="team-card reveal delay-2">
+                    <div class="member-image-wrapper">
+                        <!-- INSTAGRAM'DAN ALINACAK GÖRSEL -->
+                        <img src="baskan_yardimcisi.jpg" alt="Başkan Yardımcısı Onat Tandoğdu">
+                    </div>
+                    <div class="member-info">
+                        <h3>Onat Tandoğdu</h3>
+                        <span class="role">Başkan Yardımcısı (2025-2026)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <div class="footer-brand-container">
+                    <img src="logo.png" alt="Çemenzar Leo Logosu" class="footer-logo-img">
+                    <h2><span class="brand-cemenzar">Çemenzar</span> <span>Leo</span></h2>
+                </div>
+                <p>Topluma hizmet, geleceğe yatırımdır.</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/cemenzarleo/" target="_blank" aria-label="Instagram"><i
+                        data-lucide="instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Çemenzar Leo Kulübü. Tüm Hakları Saklıdır.
+        </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div id="gallery-modal" class="modal">
+        <span class="modal-close"><i data-lucide="x"></i></span>
+        <div class="modal-content">
+            <img id="gallery-image" src="" alt="Galeri Görseli">
+            <button class="modal-nav prev" id="modal-prev"><i data-lucide="chevron-left"></i></button>
+            <button class="modal-nav next" id="modal-next"><i data-lucide="chevron-right"></i></button>
+            <div class="modal-indicator" id="modal-indicator">1 / 6</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
